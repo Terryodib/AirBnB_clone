@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """ module cnsole airbnb"""
-
 import cmd
 import sys
 from models.base_model import BaseModel
@@ -11,6 +10,7 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 from models import storage
+
 
 class HBNBCommand(cmd.Cmd):
     """line-oriented command interpreters"""
