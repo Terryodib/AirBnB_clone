@@ -1,1 +1,7 @@
-ii
+header {
+    width: 100%;
+    height: 70px;
+    background: #FF0000;
+    grid-area: header;
+    align-self: flex-start;
+}
